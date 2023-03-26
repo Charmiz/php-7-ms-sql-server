@@ -12,6 +12,7 @@ if (!isset($_GET['action'])) {
 }
 
 $action = $_GET['action'];
+print($_GET);
 
 switch ($action) {
 case 'list':
