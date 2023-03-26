@@ -12,6 +12,7 @@ class ItemsController
         $title = 'Items Listing';
         $view = 'items/list';
         $data = Item::all();
+        print($data);
 
         require './app/Views/templates/layout.html';
     }
