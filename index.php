@@ -3,8 +3,9 @@
 use KodeBlog\Controllers\ItemsController;
 
 require './bootstrap/autoload.php';
-//print_r($_SERVER['REQUEST_URI']);
-print_r($_SERVER['SERVER_NAME']);
+
+print_r($_SERVER['REQUEST_URI']);
+
 $base_url = 'http://localhost:8000/php7sqlsrv/index.php';
 
 if (!isset($_GET['action'])) {
